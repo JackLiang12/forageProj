@@ -35,4 +35,8 @@ public class SimRequest {
     public String toString() {
         return "SimRequest [iccid=" + iccid + ", customerEmail=" + customerEmail + ", activated=" + activated + ", ID =" + ID+"]";
     }
+
+    public boolean getActive() {
+        return this.activated;
+    }
 }
